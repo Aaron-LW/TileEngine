@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "wj7wzuQ2bMY=",
+  "success": true,
+  "projectFilePath": "/media/SDL3/SmashTest/SmashTest.csproj",
+  "expectedPackageFiles": [
+    "/home/katzi/.nuget/packages/sdl3-cs/3.3.6/sdl3-cs.3.3.6.nupkg.sha512",
+    "/home/katzi/.nuget/packages/sdl3-cs.native/3.3.6/sdl3-cs.native.3.3.6.nupkg.sha512",
+    "/home/katzi/.nuget/packages/sdl3-cs.native.image/3.2.4/sdl3-cs.native.image.3.2.4.nupkg.sha512",
+    "/home/katzi/.nuget/packages/sdl3-cs.native.ttf/3.2.2/sdl3-cs.native.ttf.3.2.2.nupkg.sha512",
+    "/home/katzi/.nuget/packages/smashframework/1.0.136/smashframework.1.0.136.nupkg.sha512",
+    "/home/katzi/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.3/microsoft.aspnetcore.app.ref.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

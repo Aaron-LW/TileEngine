@@ -1,0 +1,16 @@
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/Assets/Dirt.png
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/Assets/Dynamite.png
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/Assets/Grass.png
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/Assets/JetBrainsMono-Bold.ttf
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/Assets/TextureAtlas.png
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/SmashTest
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/SmashTest.dll
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/SmashTest.deps.json
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/SmashTest.runtimeconfig.json
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/SmashTest.pdb
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/SDL3-CS.dll
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/SDL3-CS.Native.dll
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/SDL3-CS.Native.Image.dll
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/SDL3-CS.Native.TTF.dll
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/SmashFramework.dll
+/media/SDL3/SmashTest/bin/Release/net10.0/linux-x64/publish/libSDL3.so
