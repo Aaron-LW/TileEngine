@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmashTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1d84596bebd71de428235bcf4ea385e1f8d523b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmashTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmashTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
