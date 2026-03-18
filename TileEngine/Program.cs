@@ -6,32 +6,20 @@ internal static class Program
 {
     private static void Main(string[] args)
     {
-        if (!SDL.Init(SDL.InitFlags.Video)) throw new Exception($"SDL coulnd't initialize: {SDL.GetError()}");
-        if (!TTF.Init()) throw new Exception($"TTF couldn't be initialized: {SDL.GetError()}");
+        SmashEngine.Init();
 
-        SmashTest smashTest = new();
-        DeltaTimeCounter deltaTimeCounter = new();
+        TileEngine tileEngine = new TileEngine(4, 4, 2000, 2000);
+        tileEngine.Start();
 
-        smashTest.Start();
-
-        bool running = true;
-        while (running)
+        while (!tileEngine.ApplicationShouldClose())
         {
-            InputHandler.Update();
-            deltaTimeCounter.Update();
+            SmashEngine.Update();
 
-            while (SDL.PollEvent(out SDL.Event e))
-            {
-                if (e.Type == (uint)SDL.EventType.Quit)
-                {
-                    running = false;
-                }
-
-                InputHandler.Event(e);
-            }
-
-            smashTest.Update(deltaTimeCounter.Seconds);
-            smashTest.Render();
+            tileEngine.Update(SmashEngine.DeltaTime);
+            tileEngine.Render();
         }
+
+        tileEngine.End();
+        SmashEngine.Stop();
     }
 }
